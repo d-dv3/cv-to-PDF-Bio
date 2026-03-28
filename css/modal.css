@@ -1,0 +1,72 @@
+/*
+max-width: 104rem;
+*/
+.modalWindow {
+  height: 76rem;
+
+  max-width: 128rem;
+  width: 100%;
+
+  padding: 4rem;
+  border-radius: 6rem;
+  /*
+  visibility: hidden;*/
+  /**/
+  position: fixed;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%);
+
+  z-index: 1;
+  overflow: auto;
+
+  background-color: rgba(186, 145, 145, 0.4);
+  /*
+  position: block;
+  position: none;*/
+}
+
+.modalContent {
+  /*
+  height: 76rem;*/
+
+  width: 100%;
+  /*
+  width: 128rem;*/
+
+  /*
+display: flex;
+  align-items: center;
+  justify-content: center;
+*/
+}
+
+.modalHeader {
+  width: 100%;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: right;
+  border: 1px solid black;
+}
+.modalHeader button {
+  height: 4rem;
+  width: 4rem;
+  border: 2px solid #790000;
+  border-radius: 1rem;
+  background-color: transparent;
+}
+.modalHeader button p {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #790000;
+}
+.boxWrap {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.boxWrap div {
+  height: 40rem;
+  width: 40rem;
+  margin-bottom: 4rem;
+  border: 1px solid black;
+}

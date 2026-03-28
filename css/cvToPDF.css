@@ -1,0 +1,202 @@
+.cvContainer {
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* margin-bottom: 2rem; */
+  margin-bottom: 1rem;
+}
+.left-dates {
+  /* height: 4rem; */
+  width: 100%;
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: end;
+  font-size: 1.4rem;
+}
+.left-titles {
+  height: 4rem;
+  width: 100%;
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: end;
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.courseTitles {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.right-txt {
+  height: fit-content;
+  margin-bottom: 1rem;
+  width: 100%;
+  /* border: 1px solid green; */
+  /* display: flex;
+  justify-content: end; */
+  font-size: 1.4rem;
+}
+.right-txt p {
+  margin-bottom: 0.4rem;
+}
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 2.4rem;
+  /* height: 4rem; */
+  display: flex;
+  align-items: center;
+  /* border: 1px solid orange;*/
+}
+.skills-left {
+  width: 100%;
+}
+.rightContainer,
+.rightWrap,
+.skillWrap,
+.middleContainer,
+.skills-middle {
+  width: 100%;
+}
+.skills-right {
+  width: 100%;
+}
+
+.halfBox {
+  font-size: 1.2rem;
+  height: 2rem;
+  /* width: 7.2rem; */
+  /* margin-left: 8rem; */
+  /* margin-left: 29.5rem; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: end; */
+  padding-left: 0.4rem;
+  /* margin-right: 0.2rem; */
+  /* border: 1px solid blue; */
+}
+.skillExperience {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* align-items: center; */
+  font-size: 1.4rem;
+}
+.experience {
+  height: 0.6rem;
+  /* width: 8rem; */
+  background-color: #292562;
+}
+.nonExperience {
+  height: 0.4rem;
+  /* width: 8rem; */
+  background-color: #545181;
+}
+
+/* GRIDS */
+/* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */
+.grid-3col,
+.grid-1fr-2fr,
+.grid-2fr-1fr {
+  display: grid;
+}
+.grid-3col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-1fr-2fr {
+  grid-template-columns: 1fr 2fr;
+}
+.grid-2fr-1fr {
+  grid-template-columns: 2fr 1fr;
+}
+/*  */
+/* FONT SIZES */ /* FONT SIZES */ /* FONT SIZES */ /* FONT SIZES */
+/* font-size: 1.8rem;
+font-size: 1.6rem; */
+/* font-size: 1.4rem; 
+font-size: 1.2rem;  */
+/* font-size: 1rem;  */
+/*  */
+/*  */
+/*  */
+/* .rect44 {
+  height: 4rem;
+  width: 4rem;
+}
+.rect48 {
+  height: 4rem;
+  width: 8rem;
+}
+.rect84 {
+  height: 8rem;
+  width: 4rem;
+}
+/*
+:root {
+  --measure-1mod: 4rem;
+  --measure-2mod: 8rem;
+}
+optgroup
+:root {
+  --measure-4: 4rem 
+  --measure-8: 8rem  
+}
+
+Quick rule to remember
+
+Any element with an active transform becomes a containing block — position: absolute children will anchor to it instead of the nearest position: relative ancestor.
+
+Solutions
+1. Animate a wrapper, not the element with absolute children
+css/* wrap the content, animate only the wrapper */
+.fade-wrapper {
+  animation: fadeInDescending 0.3s ease;
+}
+
+.actual-element {
+  position: relative; /* absolute children anchor here, no transform */
+}
+
+
+div {
+  height: var(--measure-1mod);
+  width: var(--measure-2mod);
+} */
+
+/* DEFINITION IN CSS, ex: */
+/* css */
+/* :root {
+  --txt-xs: 1rem;
+  --txt-s: 1.2rem;
+  --txt-m: 1.4rem;
+  --txt-l: 1.6rem; (ex BIO title in bio txt)
+  --txt-xl: 1.8rem;
+
+
+  2.8rem HEADER BIO / CV and ABOUT ME
+} */
+
+/* CORRESPONDING TO */
+/* Sizes */
+/* .text-xs {
+  font-size: var(--txt-xs);
+}
+.text-s {
+  font-size: var(--txt-s);
+}
+.text-m {
+  font-size: var(--txt-m);
+}
+.text-l {
+  font-size: var(--txt-l);
+}
+.text-xl {
+  font-size: var(--txt-xl);
+} */
+
+/*  */
+/* FONT WEIGHT */
+/* 500 */
+/* default ?  */

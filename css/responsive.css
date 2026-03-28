@@ -1,0 +1,141 @@
+/* @media (max-width: 1040px) {
+  .turningPointTxt {
+    display: none;
+  }
+  .turningPointTxt-resp {
+    display: block;
+  }
+  .volunt-cat-txt {
+    display: none;
+  }
+  .volunt-dog-txt {
+    display: none;
+  }
+  .volunt-cat-txt-res {
+    display: block;
+  }
+  .volunt-dog-txt-res {
+    display: block;
+  }
+}
+@media (max-width: 825px) {
+  .message {
+    display: none;
+  }
+  .msg-resp-firstPart {
+    display: block;
+  }
+  .msg-resp-secondPart {
+    display: block;
+  }
+}
+
+@media (max-width: 560rem) {
+  .airB-temp-res {
+    display: block;
+  }
+} */
+/*** comon measures ***/
+/*** HEIGHT / WIDTH ***/
+/* H:4 / W:4 */
+/* .h4w4,
+.edit,
+.part-jobR,
+.part-jobC,
+.airB-temp,
+.voluntCat,
+.voluntDog {
+  height: 4rem;
+  width: 4rem;
+} */
+/* H:4 / W:8 */
+/* .h4w8,
+.dDJewels,
+.jewelsAC,
+.pG,
+.posGrad,
+.arch-horiz {
+  height: 4rem;
+  width: 8rem;
+} */
+/* H:8 / W:4*/
+/* 
+.oA {
+  height: 8rem;
+  width: 4rem;
+} */
+/*** comon measures ***/
+/*** FONT SIXES ***/
+.let-Xs {
+  font-size: 1rem;
+}
+.let-S {
+  font-size: 1.2rem;
+}
+.let-M {
+  font-size: 1.4rem;
+}
+.let-L {
+  font-size: 1.6rem;
+}
+.let-XL {
+  font-size: 1.8rem;
+}
+.wH {
+  color: white;
+}
+/*** comon measures ***/
+/*** POSITION: ABSOLUTE / TOP: 0 ***/
+
+/* .airB-temp,
+.dD-pT,
+.vC-pT,
+.vD-jwAC,
+.pG,
+.oA,
+.hs,
+.uc,
+.airB-temp-txt,
+.dDJewels-txt,
+.volunt-cat-txt,
+.volunt-dog-txt,
+.volunt-cat-txt-res,
+.volunt-dog-txt-res {
+  position: absolute;
+  top: 0;
+} */
+/*** ***/
+/* .let-Padd {
+  padding-top: 0.8rem;
+  padding-left: 0.4rem;
+} */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* BIO-CV */
+/* BIO-CV */
+/* BIO-CV */
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .no-print,
+  .navBottom,
+  .navTop,
+  nav,
+  main,
+  hr,
+  footer {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
