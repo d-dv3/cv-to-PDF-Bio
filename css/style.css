@@ -164,24 +164,14 @@ body {
 .portraitContainer {
   /* top: 8rem;
   left: 2rem; */
-  position: absolute;
-  top: 0;
+  /* position: absolute;
+  top: 0; */
   /* z-index: 1; */
-  --fade-distance: 40rem;
-  animation: fadeInDescending 0.001s ease forwards;
+  /* --fade-distance: 40rem;
+  animation: fadeInDescending 0.001s ease forwards; */
   border: 3px solid aqua;
 }
-/* .block16 {
-  height: 4rem;
-  width: 4rem;
-  background-color: #6d278b;
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 0;
-  margin-left: 8rem;
-  --fade-distance: 26rem;
-  animation: fadeInDescending 0.25s ease forwards;
-} */
+
 .leftTxt {
   height: 100%;
   width: 100%;

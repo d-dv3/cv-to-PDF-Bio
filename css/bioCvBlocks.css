@@ -1,251 +1,6 @@
 /* ************************** */
 /* mainTopRight - bioCv.html  */
 
-.bk5 {
-  height: 4rem;
-  width: 4rem;
-  border: 2px solid black;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 12rem;
-  --fade-distance: 1rem;
-  animation: fadeInDescending 0.5s ease forwards;
-}
-
-.bk4 {
-  height: 2rem;
-  width: 2rem;
-  border: 0.5px solid black;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 8rem;
-  --fade-distance: 9rem;
-  animation: fadeInDescending 0.5s ease forwards;
-}
-
-.bk3 {
-  height: 4rem;
-  width: 4rem;
-  border: 0.5px solid black;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 12rem;
-  --fade-distance: 5rem;
-  animation: fadeInDescending 0.5s ease forwards;
-}
-
-.bk2 {
-  height: 4rem;
-  width: 8rem;
-  border: 2px solid orange;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 8rem;
-  --fade-distance: 13rem;
-  animation: fadeInDescending 0.5s ease forwards;
-}
-
-.bk1 {
-  height: 4rem;
-  width: 8rem;
-  border: 2px solid yellow;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 8rem;
-  --fade-distance: 17rem;
-  animation: fadeInDescending 0.75s ease forwards;
-}
-
-/* .TP {
-  height: 4rem;
-  width: 4rem;
-  background-color: rgb(252, 224, 65);
-  /* border: 2px solid rgb(159, 159, 18); 
-  transform: rotate(45deg);
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 1;
-  z-index: 2;*/
-/*margin-left: 4rem;
-  --fade-distance: 28rem;
-  animation: fadeInDescending 0.25s ease forwards; 
-} */
-.pt-inv2 {
-  height: 4rem;
-  width: 4rem;
-
-  border: 1px solid orange;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 12rem;
-  --fade-distance: 21rem;
-  animation: fadeInDescending 0.75s ease forwards;
-}
-
-.pG8 {
-  height: 8rem;
-  width: 4rem;
-  background-color: rgb(90, 88, 88);
-  /* border: 2px solid orange; */
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* left: 54rem; */
-  margin-left: 12rem;
-  --fade-distance: 25rem;
-  animation: fadeInDescending 0.75s ease forwards;
-}
-.pG7 {
-  height: 4rem;
-  width: 4rem;
-  border: 1px solid blue;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  margin-left: 12rem;
-  --fade-distance: 33rem;
-  animation: fadeInDescending 1s ease forwards;
-}
-
-.pt-inv {
-  height: 2rem;
-  width: 2rem;
-  border: 1px solid red;
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  margin-left: 12rem;
-  --fade-distance: 37rem;
-  animation: fadeInDescending 1.5s ease forwards;
-}
-
-.pG4-l {
-  height: 2rem;
-  width: 2rem;
-  background-color: red;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-
-  display: flex;
-  position: absolute;
-  top: 0;
-  margin-left: 12rem;
-  --fade-distance: 39rem;
-  animation: fadeInDescending 1.5s ease forwards;
-}
-
-.pG5-r {
-  height: 2rem;
-  width: 2rem;
-  background-color: red;
-  border: 1px solid #545181;
-  border-radius: 0.5rem;
-  margin-left: 12rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  /* margin-left: 50rem; */
-  --fade-distance: 41rem;
-  animation: fadeInDescending 1.25s ease forwards;
-}
-
-.pG4-r {
-  height: 2rem;
-  width: 2rem;
-  border: 1px solid black;
-  background-color: red;
-  border-radius: 0.5rem;
-  margin-left: 6rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  margin-left: 12rem;
-  --fade-distance: 43rem;
-  animation: fadeInDescending 1.5s ease forwards;
-}
-
-.pG5-l {
-  height: 4rem;
-  width: 4rem;
-  border: 1px solid #545181;
-  /* width: 16rem; */
-  /* border: 1px solid green; */
-  border-radius: 0.5rem;
-  display: flex;
-  position: absolute;
-  top: 0;
-  margin-left: 8rem;
-  --fade-distance: 45rem;
-  animation: fadeInDescending 1.25s ease forwards;
-}
-
-.pG3 {
-  height: 4rem;
-  width: 8rem;
-  /* border: 2px solid blue; */
-  background-color: #545181;
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 0;
-  margin-left: 8rem;
-  --fade-distance: 49rem;
-  animation: fadeInDescending 1.75s ease forwards;
-}
-.pG2 {
-  height: 4rem;
-  width: 4rem;
-  /* border: 2px solid blue; */
-  /* border: 2px solid #292562; */
-  background-color: #292562;
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 0;
-  margin-left: 8rem;
-  --fade-distance: 53rem;
-  animation: fadeInDescending 2s ease forwards;
-}
-.uc2 {
-  /* border: 2px solid red; */
-  /* border: 2px solid black; */
-  background-color: #222222;
-  height: 4rem;
-  width: 12rem;
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 0;
-  /* margin-left: 50rem; */
-  --fade-distance: 56rem;
-  animation: fadeInDescending 2.25s ease forwards;
-}
-.pG3 p .pG2 p,
-.uc2 p {
-  font-size: 1.4rem;
-  /* color: red; */
-  /* color: black; */
-  color: white;
-}
 /*  */
 /* ************************************************************ */
 /*** LANDING PAGE ***********************************************/
@@ -699,3 +454,41 @@
   /* --fade-distance: 80rem; */
   /* animation: fadeInDescending 2.25s ease forwards; */
 }
+
+/*  p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |*/
+/*  p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |*/
+/* p5*js | p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |p5*js |*/
+/* * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } */
+
+/* body {
+      background-color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    } */
+
+/* h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+} */
+
+canvas {
+  border: 1px solid #333;
+}
+
+/* p {
+  color: #666;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+} */
