@@ -2,24 +2,22 @@
 //
 //
 let img;
-let gridSize = 10;
-let px, py, ox, oy, colors;
+let gridSize = 2;
+let px, py;
+let ox, oy;
 let total;
+let colors;
 
 // preload() runs before setup - safe place to load images in p5.js
 function preload() {
-  img = loadImage("dD-circulo-reSize.png");
+  img = loadImage("dD-200PixelCV.png");
 }
 
 function setup() {
-  // pixelDensity(2); // trying to upgrade img quality
-  pixelDensity(displayDensity());
-  let canvas = createCanvas(200, 200); // replaces size() in Processing
+  let canvas = createCanvas(200, 200);
   canvas.parent("sketch-container");
   noStroke();
-
-  // let offsetX = (width - img.width) / 2;
-  // let offsetY = (height - img.height) / 2;
+  // pixelDensity(2); // trying to upgrade img quality
 
   let cols = floor(img.width / gridSize);
   let rows = floor(img.height / gridSize);
@@ -34,8 +32,7 @@ function setup() {
   let i = 0;
   for (let y = 0; y < img.height; y += gridSize) {
     for (let x = 0; x < img.width; x += gridSize) {
-      let c = img.get(x, y);
-
+      // image is already b&w - just grab color directly
       colors[i] = img.get(x, y);
 
       ox[i] = x;
@@ -49,25 +46,35 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(204);
 
   for (let i = 0; i < total; i++) {
     let dx = px[i] - mouseX;
     let dy = py[i] - mouseY;
     let dist = sqrt(dx * dx + dy * dy);
 
-    let radius = 60;
+    let radius = 10;
+    let force = 80;
+    let easing = 0.15;
 
-    if (dist < radius) {
+    if (abs(dx) < radius && abs(dy) < radius) {
       let angle = atan2(dy, dx);
-      let force = (radius - dist) / radius;
-      px[i] += cos(angle) * force * 15;
-      py[i] += sin(angle) * force * 15;
+      let strength = (radius - abs(dx)) / radius;
+      px[i] += cos(angle) * strength * force;
+      py[i] += sin(angle) * strength * force;
     }
 
+    //circle
+    // if (dist < radius) {
+    //   let angle = atan2(dy, dx);
+    //   let strength = (radius - dist) / radius;
+    //   px[i] += cos(angle) * strength * force;
+    //   py[i] += sin(angle) * strength * force;
+    // }
+
     // return to original position
-    px[i] += (ox[i] - px[i]) * 0.1;
-    py[i] += (oy[i] - py[i]) * 0.1;
+    px[i] += (ox[i] - px[i]) * easing;
+    py[i] += (oy[i] - py[i]) * easing;
 
     fill(colors[i]);
     rect(px[i], py[i], gridSize, gridSize);
