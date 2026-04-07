@@ -14,6 +14,7 @@
   justify-content: end;
   font-size: 1.4rem;
 }
+
 .left-titles {
   height: 4rem;
   width: 100%;
@@ -80,19 +81,25 @@
 }
 .skillExperience {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   /* align-items: center; */
   font-size: 1.4rem;
 }
 .experience {
-  height: 0.6rem;
-  /* width: 8rem; */
+  height: 2rem;
+  width: 2rem;
   background-color: #292562;
 }
-.nonExperience {
-  height: 0.4rem;
+/* .experience {
+  height: 0.6rem; */
   /* width: 8rem; */
-  background-color: #545181;
+  /* background-color: #292562;
+} */
+.nonExperience {
+  height: 2rem;
+  width: 2rem;
+  /* background-color: #545181; */
+  border: 2px solid #545181;
 }
 
 /* GRIDS */
