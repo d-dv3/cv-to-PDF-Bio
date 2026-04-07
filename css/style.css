@@ -620,6 +620,7 @@ body {
 /*** section PDF ***/
 .pdfBtnContainer {
   display: flex;
+  border: 3px solid #790000;
 }
 /*** .section PDF ***/
 /*** print PDF button ***/
@@ -897,12 +898,9 @@ body {
 /* ***************** */
 /* ***************** */
 /* ***************** */
-footer {
+/* footer {
   height: 40rem;
-
-  /* display: flex;
-  justify-content: space-between;*/
-}
+} */
 
 .fourSquare {
   height: 4rem;
