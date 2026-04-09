@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .skillsName {
   height: 4rem;
@@ -19,7 +19,7 @@
   align-items: center;
   font-size: 1.6rem;
   font-weight: 500;
-  border: 2px solid cyan;
+  /* border: 2px solid cyan; */
 }
 .skillsSquaresContainer {
   display: flex;

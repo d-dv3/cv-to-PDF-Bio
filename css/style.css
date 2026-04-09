@@ -98,7 +98,7 @@ body {
   display: flex;
   /*margin-bottom: 12rem; */
   margin-bottom: 8rem;
-  border: 4px solid blue;
+  border: 1px solid blue;
 }
 
 .mainTopLeft {
@@ -107,7 +107,7 @@ body {
   /* display: flex;
   align-items: end; */
   /* position: relative; */
-  border: 4px solid green;
+  border: 1px solid green;
 }
 .btnPlaceholder {
   height: 8rem;
@@ -117,7 +117,7 @@ body {
 .left {
   height: 68rem;
   width: 68rem;
-  border: 4px solid red;
+  border: 1px solid red;
 }
 /* .left-2FR-wrapper {
   height: 100%;
