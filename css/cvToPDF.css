@@ -1,22 +1,83 @@
+/*** section PDF ***/
+.pdfBtnContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* border: 1px solid #790000; */
+}
+/*** .section PDF ***/
+/*** print PDF button ***/
+.printPDFbtn {
+  height: 4rem;
+  width: 4rem;
+  border: 3px solid #790000;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #790000;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+/*** .print PDF button ***/
+.printPDFbtn:hover {
+  background-color: #790000;
+  color: white;
+  transition: 0.3s ease;
+}
+/* CV TITLES nav -> 2.8rem */
+.cvSubTitleContainer {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid black; */
+}
+.cvSubTitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #292562;
+  /* border: 1px solid black; */
+}
+.cvMainTitleContainer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.cvMainTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #292562;
+  /* border: 1px solid black; */
+}
+.cvMainTitle span {
+  font-size: 2rem;
+  font-weight: 500;
+}
+/*  */
 .cvContainer {
-  height: fit-content;
+  /* height: fit-content;
+  height: 100vh; */
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 2rem;
   /* margin-bottom: 1rem; */
+  /* border: 2px solid orange; */
 }
 .left-dates {
-  height: 4rem;
+  /* height: 4rem; */
   /* width: 100%; */
-  border: 1px solid orange; 
+  /* border: 3px solid blue; */
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
 
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.6em;
+  font-weight: 400;
   margin-bottom: 1rem;
-  padding-right: 0.5rem;
+  /* padding-right: 0.5rem; */
 }
 
 .left-titles {
@@ -25,32 +86,51 @@
   /* border: 1px solid orange; */
   display: flex;
   justify-content: end;
-  padding-right: 0.5rem;
+  /* padding-right: 0.5rem; */
   font-size: 1.4rem;
   font-weight: 500;
 }
-.courseTitles {
+.courseTitle {
   height: 4rem;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 500;
-  border: 1px solid cyan;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid cyan; */
 }
-.right-txt {
+/* 4.5rem + ... */
+.courseContentContainer {
   height: fit-content;
   margin-bottom: 1rem;
-  /* width: 100%; */
-  /* border: 1px solid green; */
-  /* display: flex;
-  justify-content: end; */
+  /* border: 1px solid cyan; */
+}
+.courseContent {
+  height: 1.5rem;
   font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid blue; */
 }
-.right-txt p {
+/* 2rem + ... */
+.courseContent2 {
+  height: 3.1rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid blue; */
+}
+.courseBox {
+  margin-bottom: 2rem;
+  /* border: 3px solid red; */
+}
+/* + 1rem */
+/*  */
+/*  */
+/* .right-txt p {
   margin-bottom: 0.4rem;
-}
+} */
 .skillsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 2.4rem;
+  /* height: 2.4rem; */
+  height: 2rem;
   /* height: 4rem; */
   display: flex;
   align-items: center;
@@ -100,8 +180,8 @@
 }
 /* .experience {
   height: 0.6rem; */
-  /* width: 8rem; */
-  /* background-color: #292562;
+/* width: 8rem; */
+/* background-color: #292562;
 } */
 .nonExperience {
   height: 2rem;
@@ -176,11 +256,10 @@ css/* wrap the content, animate only the wrapper */
   position: relative; /* absolute children anchor here, no transform */
 }
 
-
 div {
   height: var(--measure-1mod);
   width: var(--measure-2mod);
-} */
+}
 
 /* DEFINITION IN CSS, ex: */
 /* css */

@@ -1,13 +1,16 @@
 /* ************************** */
 /* mainTopRight - bioCv.html  */
 .computerSkillsTitle {
-  height: 4rem;
-  font-size: 1.6rem;
-  font-weight: 500;
+  /* height: 4rem; */
+  height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
 }
 
 .skillsContainer {
-  height: 4rem;
+  /* height: 4rem; */
+  height: 3rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
 
@@ -17,8 +20,10 @@
   height: 4rem;
   display: flex;
   align-items: center;
+  justify-content: end;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
+  color: #333;
   /* border: 2px solid cyan; */
 }
 .skillsSquaresContainer {
@@ -26,24 +31,24 @@
   align-items: center;
 }
 .skillsSquare {
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 1.5rem;
   margin-left: 0.5rem;
   display: flex;
 }
 .full {
-  background-color: #292562;
+  background-color: grey;
 }
 .empty {
-  border: 1px solid #292562;
+  border: 1px solid grey;
 }
 
-.courseTitles {
+/* .courseTitles {
   font-size: 1.6rem;
   font-weight: 500;
   border: 2px solid cyan;
-}
+} */
 /* width: 96rem; */
 /* ************************************************************ */
 /*** LANDING PAGE ***********************************************/
