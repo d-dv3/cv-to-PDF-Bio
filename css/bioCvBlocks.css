@@ -3,8 +3,8 @@
 .computerSkillsTitle {
   /* height: 4rem; */
   height: 3rem;
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 1.7rem;
+  font-weight: 500;
   color: #333;
 }
 
@@ -12,7 +12,7 @@
   /* height: 4rem; */
   height: 2rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.8fr 2.2fr;
 
   /* border: 1px solid black; */
 }

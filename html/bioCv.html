@@ -136,7 +136,7 @@
         </button>
       </div>
       <!-- 2fr empty div -->
-      <div>empty div</div>
+      <!-- <div style="border: 1px solid black;">empty div</div> -->
     </section>
     <!--  -->
     <!--  -->
@@ -144,18 +144,15 @@
     <!--  -->
     <!--  -->
     <!--  -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
+
     <div class="grid-1fr-2fr">
       <!-- 1fr -->
       <!-- 1fr empty div -->
-      <div >maybe
+      <div >
         <div style="height: 3rem;" ></div>
-        <div class="computerSkillsTitle" style="height: 4rem;display: flex; align-items: end;"><p>small bio</p></div>
+        <div class="computerSkillsTitle" style="height: 4rem;display: flex; align-items: end;font-size: 1.5rem;">
+          <!-- <p>small bio</p> -->
+        </div>
       </div>
       <!-- 2fr -->
       <div>
@@ -179,18 +176,18 @@
       <!--  -->
       <div
         class="cvLeft-col grid-1fr-2fr"
-        style=" width: 96rem"
+        style=" width: 96rem;"
       >
         <!--  -->
-        <div >
+        <div style="margin-top: 6rem;">
           <!-- inicio BIO -->
-          <div style="height: 7rem;">
+          <!-- <div style="height: 7rem;font-size: 1.5rem;margin-right: 2rem;">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorem, minima in illo, nobis doloribus et debitis quia non fuga beatae blanditiis, voluptate necessitatibus! Quidem repudiandae ipsam nisi ullam!</p>
-          </div>
+          </div> -->
           <!-- FIM BIO - caixa para texto -->
           <!-- <h1>LADO ESQUERDO DENTRO MAIN CONTAINER É 1 FR</h1> -->
           <div class="computerSkillsTitle">
-            <p>Computer Skills</p>
+            <p >Computer Skills</p>
           </div>
           <!-- inicio SKILL -->
           <div class="skillsContainer">
@@ -198,6 +195,8 @@
             <div class="skillsName">
               <p>html</p>
             </div>
+            <!-- 2fr -->
+            <!-- 2fr -->
             <!-- 2fr -->
             <div class="skillsSquaresContainer">
               <div class="skillsSquare full"></div>
@@ -207,7 +206,7 @@
               <div class="skillsSquare empty"></div>
             </div>
           </div>
-          <!--fim SKILL  -->
+          <!--fim SKILL  1fr 2fr -30 -70-->
 
           <!-- inicio SKILL -->
           <div class="skillsContainer">
@@ -343,11 +342,12 @@
             </div>
           </div>
           <!--fim SKILL  -->
-          <div style="height: 3rem;">espaço1
+          <!--  -->
+          <!--  -->
+          <!-- separador -->
+          <div style="height: 4rem">
           </div>
-          <div style="height: 1rem;">espaço2
 
-          </div>
 
           <div class="computerSkillsTitle" >
             <p>other Skills_language</p>
@@ -368,10 +368,11 @@
             </div>
           </div>
           <!--fim SKILL  -->
-          <div class="computerSkillsTitle">espaço3
-            <!-- <p>Computer Skills</p> -->
+          <!--  -->
+          <!-- separador -->
+          <div style="height: 4rem;" class="computerSkillsTitle">
           </div>
-          <div class="computerSkillsTitle">espaço4
+          <div class="computerSkillsTitle">
             <p>other computer skills</p>
           </div>
           <!--  -->
@@ -420,7 +421,8 @@
               <div class="skillsSquare empty"></div>
             </div>
           </div>
-          <div style="height: 100%; " >empty</div>
+          <!-- separador -->
+          <!-- <div style="border: 1px solid blue;height: 6rem; " ></div> -->
           <!--fim SKILL  -->
           <!-- caixa para texto -->
 
@@ -433,22 +435,31 @@
           <div class="grid-1fr-2fr">
             <!-- CONTAINER 2FR - child 1fr - dates -->
             <div >
-              <div class="left-dates" style="height: 19.1rem; display: flex;justify-content: space-between;">
-                <p style="font-size: 1.5rem">< on going ></p>
-                <p>15.01 - 16.06</p>
-                </p>
+              <div class="cvCourseDates" style="height: 19.1rem; display: flex;justify-content: space-between;">
+                <div><p style="color: grey;">< on going ></p></div>
+                <div><p>15.01 - 16.06</p><p style="justify-self: end;font-size: 1.2rem;color: grey;"  >1111h</p></div>
+                
+                
+                
               </div>
               <!--  -->
-              <div class="left-dates" style="height: 9.6rem;display: flex;justify-content: space-between;">
-                <p style="margin-right: 2rem;font-size: 1.5rem">< on going ><p></p>25.02 - 22.04</p>
+              <div class="cvCourseDates" style="height: 9.6rem;display: flex;justify-content: space-between;">
+                <div><p style="color: grey;">< on going ></p></div>
+                <div><p>25.02 - 22.04</p><p style="justify-self: end;font-size: 1.2rem;color: grey;"  >1111h</p></div>
+                
+
+                
               </div>
               <!--  -->
-              <div class="left-dates" style="display: flex; justify-content: end;height: 9rem;">
-                <p>12.2023 - 06 - 2023</p>
+              <div style="height: 9rem;margin-right: 2rem;justify-self: end;font-size: 1.4rem;">
+                <div><p>12.2023 - 06 - 2023</p></div>
+                <div style="justify-self: end;font-size: 1.2rem;color: grey;" >1090h</div>
               </div>
               <!--  -->
-              <div class="left-dates" style="display: flex; justify-content: end;height: 9rem;">
-                <p>03.2022 - 07.2022</p>
+              <div style="height: 9rem;margin-right: 2rem;justify-self: end;font-size: 1.4rem;">
+                <div><p>03.2022 - 07.2022</p></div>
+                <div style="justify-self: end;font-size: 1.2rem;color: grey;" ><p>2222h</p></div>
+                
               </div>
               <!--  -->
               <!-- CONTAINER 2FR - child 1fr - dates -->
@@ -460,7 +471,9 @@
             <div class="allCourses">
               <div class="courseBox">
                 <div class="courseTitle">
-                  <p>low code developer_ outsystems<br />cesae digital</p>
+                  <p>low code developer_ outsystems<br />
+                    <span class="courseSchool">cesae digital</span>
+                    </p>
                 </div>
                 <!--  -->
                 <div class="courseContentContainer">
@@ -489,7 +502,7 @@
               <div class="courseBox">
                 <!-- COURSE TITLE -->
                 <div class="courseTitle">
-                  <p>creative coding<br />esad<span> _beginner - 24h</span></p>
+                  <p>creative coding<br /><span class="courseSchool">esad _beginner - 24h</span></p>
                 </div>
                 <!-- COURSE CONTENT -->
                 <div>
@@ -504,8 +517,8 @@
               <div class="courseBox">
                 <div class="courseTitle">
                   <p>
-                    frontend developer<br />
-                    flag
+                    frontend developer<br /><span class="courseSchool" > flag </span>
+                    
                   </p>
                 </div>
                 <div>
@@ -520,8 +533,8 @@
               <div class="courseBox">
                 <div class="courseTitle">
                   <p>
-                    User Experience & User Interface Design<br />
-                    edit
+                    User Experience & User Interface Design<br /><span class="courseSchool" >edit</span>
+                    
                   </p>
                 </div>
                 <div>
@@ -538,12 +551,15 @@
           <!-- PARENT RIGHT CONTAINER 2fr -->
             <!-- <h1>CONTINUAR O 2FR DIREITA DA DIREITA</h1> -->
 
+          <!-- separador -->
+          <hr style="color: red;">
 
 
             
 
 
-        <!--  -->
+        <!-- separador -->
+            <div style="height: 4rem; width: 100%;"></div>
         <!--  -->
         <!--  -->
         <!--  -->
@@ -720,14 +736,15 @@
         <!--  -->
         <!--  -->
         <!-- BIG  PARENT RIGHT CONTAINER 2fr -->
-      </div>
+      </hr>
       <!-- FIM COMPUTER SKILLS + EDUCATION -->
       <!-- FIM COMPUTER SKILLS + EDUCATION -->
       <!-- aqui AINDA DENTRO CONTAINER PRETO -->
       <!-- aqui AINDA DENTRO CONTAINER PRETO -->
     </div>
 
-    <hr />
+    
+    <div></div>
     <footer
       style="
         height: 20rem;
