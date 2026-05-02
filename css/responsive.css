@@ -120,14 +120,24 @@
 @media print {
   @page {
     size: A4;
-    margin: 20mm;
+    margin: 10mm;
   }
 
   body {
     margin: 0;
     width: 100%;
   }
+  .cvMainTitle {
+    font-size: 1.6em;
+  }
+  /*
+  .navTopPDF 
+  .mainHeadingtoPDF
+  .navBottomPDF 
+  .contactInfoToPDF 
+  */
 
+  .printPDFbtn,
   .no-print,
   .navBottom,
   .navTop,

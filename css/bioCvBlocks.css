@@ -6,13 +6,17 @@
   font-size: 1.7rem;
   font-weight: 400;
   color: #333;
+
+  /* justify-content: right; */
 }
 
 .skillsContainer {
   /* height: 4rem; */
-  height: 2rem;
-  display: grid;
-  grid-template-columns: 0.8fr 2.2fr;
+  /* height: 2rem; */
+  /* height: fit-content; */
+  /* display: grid; */
+  /* grid-template-columns: 0.8fr 2.2fr; */
+  /* grid-template-columns: 1fr 1fr; */
 
   /* border: 1px solid black; */
 }
@@ -20,8 +24,8 @@
   height: 3rem;
   display: flex;
   align-items: center;
-  justify-content: end;
-  margin-right: 0.5rem;
+  /* justify-content: end; */
+  /* margin-right: 0.5rem; */
   font-size: 1.4rem;
   font-weight: 400;
   color: #333;

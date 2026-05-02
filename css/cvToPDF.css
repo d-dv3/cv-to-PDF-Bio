@@ -1,7 +1,12 @@
 /*** section PDF ***/
 .pdfBtnContainer {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: right; */
+  /* display: grid;
+  grid-template-columns: 1fr 2fr; */
+  /* margin-bottom: 2rem; */
+  margin-bottom: 4rem;
   /* border: 1px solid #790000; */
 }
 /*** .section PDF ***/
