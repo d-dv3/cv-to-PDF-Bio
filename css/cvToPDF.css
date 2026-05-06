@@ -97,10 +97,15 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
+.courseIndividualWrapper {
+  margin-bottom: 0.5rem;
+}
 .cvCourseDatesContainer {
+  flex: 1;
   display: flex;
   justify-content: end;
   margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 .cvCourseDates {
   font-size: 1.4rem;
@@ -123,12 +128,13 @@
 .courseContentContainer {
   height: fit-content;
   margin-bottom: 1rem;
-  /* border: 1px solid cyan; */
+  border: 3px solid cyan;
 }
 .courseContent {
-  height: 1.5rem;
+  height: fit-content;
+  /* height: 1.5rem; */
   font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   /* border: 1px solid blue; */
 }
 /* 2rem + ... */
