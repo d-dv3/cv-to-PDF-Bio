@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 0 auto auto auto;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+body {
+  max-width: 104rem;
+  margin: 0 auto;
+
+  /* position: relative; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: white;
+}
+* ******************* */
+/* ******************* */
+/* ******************* */
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.sectionSubtitle {
+  font-size: 1.6rem;
+}
+
+.modularContentWrapper {
+  border: 3px solid black;
+}
+.navigator {
+  font-size: 1.7rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.contentStructure {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.contentGridWrapper-2fr-1fr {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 2rem;
+  /* border: 3px solid rgb(4, 63, 4); */
+}
+.contentLeft-2fr {
+  height: fit-content;
+  /* border: 3px solid red; */
+}
+.contentRight-1fr {
+  margin-left: 1rem;
+  /* border: 3px solid rgb(187, 101, 3); */
+}
+.primaryContentTitle {
+  font-size: 1.7rem;
+  font-weight: 500;
+  /* border: 1px solid cyan; */
+}
+.secondaryContentTitle,
+.courseSchool {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.secondaryContentTitle span {
+  font-size: 1.4rem;
+}
+.contentText {
+  height: fit-content;
+  /* height: 1.5rem; */
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid blue; */
+}
+/* BIO-CV */
+/* BIO-CV */
+/* BIO-CV */
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .cvMainTitle {
+    font-size: 1.6em;
+  }
+  /*
+  .navTopPDF 
+  .mainHeadingtoPDF
+  .navBottomPDF 
+  .contactInfoToPDF 
+  */
+
+  .printPDFbtn,
+  .no-print,
+  .navBottom,
+  .navTop,
+  nav,
+  main,
+  hr,
+  footer {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}

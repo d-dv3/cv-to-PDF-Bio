@@ -34,202 +34,103 @@
   transition: 0.3s ease;
 }
 /* CV TITLES nav -> 2.8rem */
-.cvSubTitleContainer {
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-  /* border: 1px solid black; */
-}
-.cvSubTitle {
+s
+/* .cvSubTitle {
   font-size: 1.8rem;
   font-weight: 500;
   color: #333;
-  /* border: 1px solid black; */
-}
-.cvMainTitleContainer {
+} */
+/* .cvMainTitleContainer {
   height: 4rem;
   display: flex;
   align-items: center;
-  /* border: 1px solid black; */
-}
-.cvMainTitle {
+} */
+/* .cvMainTitle {
   font-size: 2.2rem;
   font-weight: 700;
   color: #333;
-  /* border: 1px solid black; */
-}
-.cvMainTitle span {
-  font-size: 2rem;
-  font-weight: 500;
-}
+} */
+
 /*  */
-.cvContainer {
-  /* height: fit-content;
-  height: 100vh; */
+/* .cvContainer {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 2rem;
-  /* margin-bottom: 1rem; */
-  /* border: 2px solid orange; */
-}
-.left-dates {
-  /* height: 4rem; */
-  /* width: 100%; */
-  /* border: 3px solid blue; */
-  /* display: flex; */
-  /* justify-content: end; */
+} */
 
-  /* font-size: 1.6em;
-  font-weight: 400;
-  margin-bottom: 1rem; */
-  /* padding-right: 0.5rem; */
-}
-
-.left-titles {
+/* .left-titles {
   height: 4rem;
   width: 100%;
-  /* border: 1px solid orange; */
   display: flex;
   justify-content: end;
-  /* padding-right: 0.5rem; */
   font-size: 1.4rem;
   font-weight: 500;
-}
-.courseIndividualWrapper {
-  margin-bottom: 0.5rem;
-}
-.cvCourseDatesContainer {
-  flex: 1;
-  display: flex;
-  justify-content: end;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
-}
-.cvCourseDates {
-  font-size: 1.4rem;
-}
-.courseTitleContainer {
-  height: 4rem;
-  margin-bottom: 0.5rem;
-  /* border: 1px solid cyan; */
-}
-.courseTitle {
-  font-size: 1.7rem;
-  font-weight: 500;
-  /* border: 1px solid cyan; */
-}
-.courseSchool {
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-/* 4.5rem + ... */
-.courseContentContainer {
-  height: fit-content;
-  margin-bottom: 1rem;
-  border: 3px solid cyan;
-}
-.courseContent {
-  height: fit-content;
-  /* height: 1.5rem; */
-  font-size: 1.4rem;
-  /* margin-bottom: 0.5rem; */
-  /* border: 1px solid blue; */
-}
-/* 2rem + ... */
-.courseContent2 {
-  height: 3.1rem;
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  /* border: 1px solid blue; */
-}
-.courseBox {
-  margin-bottom: 2rem;
-  /* border: 3px solid red; */
-}
-.courseBoxLast {
-  margin-bottom: 8rem;
-  /* border: 3px solid red; */
-}
-/* + 1rem */
-/*  */
-/*  */
-/* .right-txt p {
-  margin-bottom: 0.4rem;
 } */
-.skillsContainer {
+/* .courseIndividualWrapper {
+  margin-bottom: 0.5rem;
+} */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+
+/* .skillsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* height: 2.4rem; */
   height: 2rem;
-  /* height: 4rem; */
   display: flex;
   align-items: center;
-  /* border: 1px solid orange;*/
-}
-.skills-left {
+} */
+/* .skills-left {
   width: 100%;
-}
-.rightContainer,
+} */
+/* .rightContainer,
 .rightWrap,
 .skillWrap,
 .middleContainer,
 .skills-middle {
   width: 100%;
-}
-.skills-right {
+} */
+/* .skills-right {
   width: 100%;
-}
+} */
 
-.halfBox {
+/* .halfBox {
   font-size: 1.2rem;
   height: 2rem;
-  /* width: 7.2rem; */
-  /* margin-left: 8rem; */
-  /* margin-left: 29.5rem; */
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
-  /* justify-content: end; */
   padding-left: 0.4rem;
-  /* margin-right: 0.2rem; */
-  /* border: 1px solid blue; */
-}
-.skillExperience {
+} */
+/* .skillExperience {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /* align-items: center; */
   font-size: 1.4rem;
-  /* border:2px solid rgb(242, 0, 255) */
-}
-.experience {
+} */
+/* .experience {
   height: 2rem;
   width: 2rem;
   border-radius: 0.5rem;
   margin-right: 1rem;
   background-color: #292562;
-}
-/* .experience {
-  height: 0.6rem; */
-/* width: 8rem; */
-/* background-color: #292562;
 } */
-.nonExperience {
+/* .nonExperience {
   height: 2rem;
   width: 2rem;
   border-radius: 0.5rem;
   margin-right: 1rem;
-  /* background-color: #545181; */
   border: 1px solid #545181;
-}
+} */
 
 /* GRIDS */
 /* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */ /* GRIDS */
-.skillsGridExperiment {
+/* .skillsGridExperiment {
   display: grid;
   grid-template-columns: 0.7fr 2.3fr;
-}
+} */
 
 .grid-3col,
 .grid-1fr-2fr,
