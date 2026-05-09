@@ -20,28 +20,49 @@ body {
   padding-right: 4rem;
   background-color: white;
 }
-* ******************* */
 /* ******************* */
 /* ******************* */
-.sectionTitle {
-  font-size: 1.8rem;
+/* ******************* */
+.navigator {
+  /* font-size: 1.7rem; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.lookingForward {
+  font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 1rem;
+}
+.presentationText {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.goCV {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.contentStructure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40rem;
+  /* border: 6px solid orangered; */
+}
+/*.modularContentWrapper {
+ border: 3px solid black; 
+}*/
+.sectionTitle {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 .sectionSubtitle {
   font-size: 1.6rem;
 }
-
-.modularContentWrapper {
-  border: 3px solid black;
-}
-.navigator {
-  font-size: 1.7rem;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-}
-.contentStructure {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+.contentGridWrapper {
+  margin-bottom: 2rem;
 }
 .contentGridWrapper-2fr-1fr {
   display: grid;
@@ -49,27 +70,51 @@ body {
   margin-bottom: 2rem;
   /* border: 3px solid rgb(4, 63, 4); */
 }
+.contentLeftMain {
+  width: 100%;
+}
+.cvSubTitleContainer,
 .contentLeft-2fr {
+  width: 50%;
   height: fit-content;
+  margin-left: auto;
   /* border: 3px solid red; */
 }
 .contentRight-1fr {
-  margin-left: 1rem;
-  /* border: 3px solid rgb(187, 101, 3); */
+  flex: 1;
+  /* margin-left: 1rem;
+  margin-right: 4rem;*/
+  /* border: 1px solid rgb(187, 101, 3); */
 }
 .primaryContentTitle {
   font-size: 1.7rem;
   font-weight: 500;
-  /* border: 1px solid cyan; */
+  /* border-bottom: 1px solid #999; */
 }
-.secondaryContentTitle,
-.courseSchool {
+/*
+course/ time
+content/ date */
+.secondaryContentTitle {
+  height: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   font-size: 1.7rem;
   font-weight: 400;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
+  border-bottom: 1px solid #999;
+  margin-bottom: 0.8rem;
 }
 .secondaryContentTitle span {
   font-size: 1.4rem;
+}
+.addContentDate {
+  font-size: 1.3rem;
+  align-self: self-end;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
 }
 .contentText {
   height: fit-content;
@@ -77,6 +122,32 @@ body {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
   /* border: 1px solid blue; */
+}
+.contentText-no-mb {
+  height: fit-content;
+  /* height: 1.5rem; */
+  font-size: 1.4rem;
+
+  /* border: 1px solid blue; */
+}
+/* .spaceBetween {
+  display: flex;
+  justify-content: space-between;
+} */
+.contentRight-1fr {
+  border: 1px solid red;
+}
+.contentDates {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+  /* border: 1px solid rgb(187, 101, 3); */
+  /* border-bottom: 1px solid #999; */
+}
+.contentDates-no-mt {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid rgb(187, 101, 3); */
+  /* border-bottom: 1px solid #999; */
 }
 /* BIO-CV */
 /* BIO-CV */
@@ -100,14 +171,14 @@ body {
   .navBottomPDF 
   .contactInfoToPDF 
   */
-
+  .navigator,
   .printPDFbtn,
   .no-print,
   .navBottom,
   .navTop,
-  nav,
+  /* nav,
   main,
-  hr,
+  hr, */
   footer {
     display: none !important;
     visibility: hidden !important;
